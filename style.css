@@ -303,7 +303,8 @@ body {
         font-family: 'Montserrat', sans-serif;
         font-size: 2rem;
         font-weight: bold;
-        color: #1f0e5a;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        color: #f8f7fd;
         margin-top: 1rem;
         animation: fadeInUp 0.8s ease-out 0.3s forwards;
         opacity: 0;
@@ -592,11 +593,11 @@ button:focus:not(:focus-visible),
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1.5px solid rgba(255, 255, 255, 0.25);
-  color: #f59e0b;
+  color: #1f0e5a;
   transition: background 0.3s, color 0.3s, border 0.3s;
 }
 .glassmorphism-btn:hover, .glassmorphism-btn:focus {
   background: rgba(255, 255, 255, 0.25);
   color: #fff;
-  border: 1.5px solid #f59e0b;
+  border: 1.5px solid #1f0e5a;
 }
